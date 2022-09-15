@@ -27,8 +27,7 @@ let Recycling = {
     }, close_bin: () => {
         console.log("closing bin!");
         pins.servoWritePin(AnalogPin.P1, Recycling.CLOSE_SPEED);
-    },
-    reset_amt_recycled: () => {
+    }, reset_amt_recycled: () => {
         Recycling.AMT_RECYCLED = 0;
     }
 }
